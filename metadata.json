@@ -1,0 +1,6 @@
+{
+  "name": "Andrés Rojas - Psicólogo Clínico FPV 17522",
+  "description": "Plataforma clínica profesional basada exclusivamente en Análisis de la Conducta, Interconductismo y Terapias de Tercera Generación (ACT, DBT, FAP, BA).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

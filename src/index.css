@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg: #FFFFFF;
+    --color-slate-blue: #91A7BB;
+    --color-primary-blue: #4D76B4;
+    --color-light-blue: #6BD4FF;
+    --color-azure-blue: #4D94FF;
+    --color-accent-yellow: #FFE571;
+    --color-text-dark: #2A2A2A;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #2A2A2A;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom utility colors */
+.bg-ar-primary { background-color: #4D76B4; }
+.text-ar-primary { color: #4D76B4; }
+.border-ar-primary { border-color: #4D76B4; }
+
+.bg-ar-slate { background-color: #91A7BB; }
+.text-ar-slate { color: #91A7BB; }
+.border-ar-slate { border-color: #91A7BB; }
+
+.bg-ar-yellow { background-color: #FFE571; }
+.text-ar-yellow { color: #8F7600; }
+.border-ar-yellow { border-color: #FFE571; }
+
+.bg-ar-cyan { background-color: #6BD4FF; }
+.text-ar-cyan { color: #0088CC; }
+.border-ar-cyan { border-color: #6BD4FF; }
+
+.bg-ar-azure { background-color: #4D94FF; }
+.text-ar-azure { color: #4D94FF; }
+
+.font-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Smooth organic curves matching identity manual */
+.ar-card {
+  background: #ffffff;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(145, 167, 187, 0.25);
+  box-shadow: 0 4px 20px -2px rgba(77, 118, 180, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.ar-card:hover {
+  border-color: rgba(77, 118, 180, 0.4);
+  box-shadow: 0 10px 25px -4px rgba(77, 118, 180, 0.12);
+}
